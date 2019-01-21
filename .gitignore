@@ -1,3 +1,6 @@
 *.grd
 .bash_history
+.gmtcommands4
+.gmtdefaults4
+/legacy/output
 /work
