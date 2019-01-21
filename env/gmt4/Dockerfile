@@ -5,7 +5,7 @@ ARG GMT_DEBIAN_SUBVER="-1"
 ARG GMT_GSHHS_VER="2.2.0"
 ARG GMT_GSHHS_DEBIAN_SUBVER="-2"
 RUN groupadd --gid 1000 user \
-    && useradd -g user -s /bin/bash --uid 1000 user \
+    && useradd -g user -s /bin/bash -d /work --uid 1000 user \
     && rm /etc/localtime \
     && ln -s /usr/share/zoneinfo/Asia/Taipei /etc/localtime \
     && apt-get update \
