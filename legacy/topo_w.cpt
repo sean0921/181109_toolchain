@@ -1,0 +1,7 @@
+#	cpt file created by: makecpt -Cseis -D -T2/10/1 -I -V
+#COLOR_MODEL = RGB
+#
+-10000	255	255	255	5000	255	255	255
+B	0	45	233
+F	218	0	0
+N	128	128	128
