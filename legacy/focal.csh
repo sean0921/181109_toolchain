@@ -1,5 +1,7 @@
 #!/usr/bin/env csh
 
+mkdir -p ./output
+
 set ps = ./output/focal.ps
 set cpt = dep.cpt
 #cpt 0~200
