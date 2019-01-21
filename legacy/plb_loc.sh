@@ -1,3 +1,5 @@
+#!/usr/bin/env csh
+
 set ps = ./output/Plb_loc.ps
 set cpt = dep.cpt
 set eqlist1 = EHBlev1.list

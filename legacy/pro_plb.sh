@@ -1,3 +1,5 @@
+#!/usr/bin/env csh
+
 set ps = ./output/profile.ps
 set eqlist1 = EHBlev1.list
 set eqlist2 = EHBlev2.list
